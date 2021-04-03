@@ -1,6 +1,6 @@
 from src.tabla import tabla_letras
 class dni:
-    longitud_dni = 9
+    
     def __init__(self,dni_entero):
         self.dni_entero = str(dni_entero)
         
