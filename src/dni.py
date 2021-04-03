@@ -24,7 +24,7 @@ class dni:
             else:
                 return False
         else:
-                return dni_entero + tabla_letras(self.dni_entero).calculo_letra()
+            return dni_entero + tabla_letras(self.dni_entero).calculo_letra()
             
     def crear_dni(self):
         if dni.verificar_longitud_dni(self) != True:
